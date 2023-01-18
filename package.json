@@ -1,0 +1,31 @@
+{
+  "name": "@brewer/echarts-action",
+  "version": "1.0.0",
+  "description": "echarts自动切换图表",
+  "keywords": [
+    "echarts自动切换图表",
+    "echarts-utils"
+  ],
+  "author": "beerui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beerui/echarts-action"
+  },
+  "homepage": "https://github.com/beerui/echarts-action",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.5.0"
+  }
+}
